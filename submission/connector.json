@@ -1,0 +1,91 @@
+{
+  "format": "adspirer-submission-kit-v1",
+  "version": "1.0.0",
+  "name": "Adspirer Search Ads",
+  "company": "Adspirer",
+  "description": "PPC and paid search agent for Google Ads and Microsoft Advertising (Bing Ads). Research keywords and competitor ads, review search performance, find wasted spend, audit conversion tracking, and plan, create and optimize search campaigns, with your approval before any change that affects spend.",
+  "repository": "https://github.com/Adspirer/adspirer-search-ads-muse-connector",
+  "productWebsite": "https://www.adspirer.com/integrations/f/muse",
+  "documentation": "https://www.adspirer.com/docs/ai-clients/muse",
+  "mcpDocumentation": "https://www.adspirer.com/docs/mcp",
+  "privacyPolicy": "https://www.adspirer.com/privacy",
+  "termsOfService": "https://www.adspirer.com/terms",
+  "contactEmail": "abhi@adspirer.com",
+  "supportEmail": "support@adspirer.com",
+  "icon": "assets/icon.svg",
+  "connectionType": "Existing MCP",
+  "endpoint": "https://mcp.adspirer.com/search-ads",
+  "transport": "Streamable HTTP",
+  "authentication": "OAuth with PKCE",
+  "pkceMethod": "S256",
+  "accessRequirements": "An Adspirer account, an applicable Adspirer plan, and authorized access to at least one Google Ads or Microsoft Advertising account. Google Analytics, Search Console and Tag Manager tools appear only when the user has connected them. Capabilities depend on platform permissions, eligibility, plan limits and the platforms' API limits. Advertising spend is billed separately by Google and Microsoft. Muse connector availability is subject to review and enablement.",
+  "toolCatalogDate": "2026-11-02",
+  "tools": [
+    {
+      "name": "start_here",
+      "class": "Read"
+    },
+    {
+      "name": "get_connections_status",
+      "class": "Read"
+    },
+    {
+      "name": "get_usage_status",
+      "class": "Read"
+    },
+    {
+      "name": "get_tool_schema",
+      "class": "Read"
+    },
+    {
+      "name": "get_campaign_performance",
+      "class": "Read"
+    },
+    {
+      "name": "audit_conversion_tracking",
+      "class": "Read"
+    },
+    {
+      "name": "competitor_ads_research",
+      "class": "Read"
+    },
+    {
+      "name": "google_ads_read",
+      "class": "Read"
+    },
+    {
+      "name": "bing_ads_read",
+      "class": "Read"
+    },
+    {
+      "name": "google_analytics",
+      "class": "Read"
+    },
+    {
+      "name": "google_search_console",
+      "class": "Write"
+    },
+    {
+      "name": "google_tag_manager",
+      "class": "Sensitive write"
+    },
+    {
+      "name": "activate_ad_accounts",
+      "class": "Write"
+    },
+    {
+      "name": "google_ads_write",
+      "class": "Sensitive write"
+    },
+    {
+      "name": "bing_ads_write",
+      "class": "Sensitive write"
+    }
+  ],
+  "examplePrompts": [
+    "I run a dental practice in Austin with $60 a day for Google Ads. Ask about my services and landing page, research high-intent keywords with search volume and estimated CPC, and draft a Search campaign with ad groups, ads and negative keywords. Show me the plan first; if I approve, create it paused and do not enable it without a separate yes.",
+    "Review my Google Ads and Microsoft Advertising accounts over the last 30 complete days against the previous 30. Compare spend, clicks, conversions, CPA and ROAS per platform, keeping currencies separate, and tell me where the money is working and where it is not. Do not change anything.",
+    "Audit my Google Ads search terms from the last 60 days for wasted spend. Show the terms with spend and no conversions, account for conversion lag, and propose negative keywords with match types and the campaigns they apply to. Ask before adding any.",
+    "Check whether my Google Ads conversion tracking is healthy before I raise budgets. List each conversion action, whether it recorded conversions recently, and anything that looks misconfigured, in plain English. Read only."
+  ]
+}
