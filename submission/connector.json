@@ -83,9 +83,10 @@
     }
   ],
   "examplePrompts": [
-    "I run a dental practice in Austin with $60 a day for Google Ads. Ask about my services and landing page, research high-intent keywords with search volume and estimated CPC, and draft a Search campaign with ad groups, ads and negative keywords. Show me the plan first; if I approve, create it paused and do not enable it without a separate yes.",
-    "Review my Google Ads and Microsoft Advertising accounts over the last 30 complete days against the previous 30. Compare spend, clicks, conversions, CPA and ROAS per platform, keeping currencies separate, and tell me where the money is working and where it is not. Do not change anything.",
-    "Audit my Google Ads search terms from the last 60 days for wasted spend. Show the terms with spend and no conversions, account for conversion lag, and propose negative keywords with match types and the campaigns they apply to. Ask before adding any.",
-    "Check whether my Google Ads conversion tracking is healthy before I raise budgets. List each conversion action, whether it recorded conversions recently, and anything that looks misconfigured, in plain English. Read only."
+    "Pull my Google Ads performance for the last 90 days by campaign: impressions, clicks, spend and conversions, with totals.",
+    "Show my Google Analytics sessions and conversions by traffic source for the last 90 days.",
+    "List my Microsoft Advertising campaigns with their status, daily budgets and bid strategies.",
+    "In my Google Ads account, show the search terms from the last 90 days that spent money with no conversions, highest spend first, and suggest negative keywords. Don't add them yet.",
+    "Create a paused Microsoft Advertising Performance Max campaign for my online watch store at $50 a day, with headlines and descriptions you write, my landing page and my images. Show me the plan before creating anything."
   ]
 }
