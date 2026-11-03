@@ -7,7 +7,7 @@
   "repository": "https://github.com/Adspirer/adspirer-search-ads-muse-connector",
   "productWebsite": "https://www.adspirer.com/integrations/f/muse",
   "documentation": "https://www.adspirer.com/docs/ai-clients/muse",
-  "mcpDocumentation": "https://www.adspirer.com/docs/mcp",
+  "mcpDocumentation": "https://www.adspirer.com/docs/introduction",
   "privacyPolicy": "https://www.adspirer.com/privacy",
   "termsOfService": "https://www.adspirer.com/terms",
   "contactEmail": "abhi@adspirer.com",
@@ -18,7 +18,7 @@
   "transport": "Streamable HTTP",
   "authentication": "OAuth with PKCE",
   "pkceMethod": "S256",
-  "accessRequirements": "An Adspirer account, an applicable Adspirer plan, and authorized access to at least one Google Ads or Microsoft Advertising account. Google Analytics, Search Console and Tag Manager tools appear only when the user has connected them. Capabilities depend on platform permissions, eligibility, plan limits and the platforms' API limits. Advertising spend is billed separately by Google and Microsoft. Muse connector availability is subject to review and enablement.",
+  "accessRequirements": "An Adspirer account and admin access to at least one Google Ads or Microsoft Advertising account (read-only access is enough for reporting).",
   "toolCatalogDate": "2026-11-02",
   "tools": [
     {

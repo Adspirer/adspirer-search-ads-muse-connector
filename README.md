@@ -22,7 +22,7 @@ This is Adspirer's company-owned **submission kit for the Muse hosted MCP connec
 - Why it beats the browser: it reads the user's own ad accounts through the platforms' APIs, so the answer is the account's real data. It finishes the change in the account after approval rather than sending the user to the Google Ads or Microsoft Advertising UI.
 - Optional context: Google Analytics 4, Search Console and Tag Manager, when the user has connected them in Adspirer.
 
-An Adspirer account, an applicable Adspirer plan, and authorized access to at least one Google Ads or Microsoft Advertising account. Google Analytics, Search Console and Tag Manager tools appear only when the user has connected them. Capabilities depend on platform permissions, eligibility, plan limits and the platforms' API limits. Advertising spend is billed separately by Google and Microsoft. Muse connector availability is subject to review and enablement.
+An Adspirer account and admin access to at least one Google Ads or Microsoft Advertising account (read-only access is enough for reporting).
 
 ## Tools
 
